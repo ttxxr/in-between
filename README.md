@@ -17,9 +17,9 @@
 #### Run Pre-trained Model
 
 #### Metrics
-L2P: 先对Global Positions 进行正则化，然后再计算预测值与生成值的L2距离；
+L2P: 先对Global Positions 进行正则化，然后再计算预测值与实际值的L2距离；
 
-L2Q: 计算Global Quaternions 的预测值与生成值的L2距离。
+L2Q: 计算Global Quaternions 的预测值与实际值的L2距离。
 
 可参考 [LaFAN1](https://github.com/ubisoft/ubisoft-laforge-animation-dataset/blob/master/lafan1/benchmarks.py)中的实现。
 
