@@ -7,13 +7,14 @@
 1、下载`LAFAN`数据集，并修改`./model/conf`下配置文件中的`data_path`
 
 2、训练
+
 `python main.py train cgan local`
 
 3、测试
+
 `python test.py train cgan local`
 
-#### Pre-trained Model
-
+#### Run Pre-trained Model
 
 #### Metrics
 L2P: 先对Global Positions 进行正则化，然后再计算预测值与生成值的L2距离；
