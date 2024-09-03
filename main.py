@@ -24,8 +24,7 @@ MODULE_LIST = ["cgan",
                "cvae_ic",
                "cvae_ic2",
                "cvae_gic",
-               "cvae_saic",
-               "cvae_ssaic"]
+               "cvae_saic"]
 
 if __name__ == '__main__':
     mode = args.mode
